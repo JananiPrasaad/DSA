@@ -30,6 +30,7 @@ public class Fibonacci {
 		return getFibonacci(n - 1) + getFibonacci(n - 2);
 
 	}
+	/* Recursive Function to print the Fib series */
 
 	private static int printFibSeries(int n) {
 
