@@ -15,20 +15,18 @@ public class Fibonacci {
 		System.out.println(0);
 		System.out.println(1);
 		printFibSeries(num - 2);
-		//
-
 		scan.close();
 
 	}
 
 	private static int getFibonacci(int n) {
 		if (n == 0 || n == 1) {
-			System.out.println("I'm in default loop and n value is " + n);
+		//	System.out.println("I'm in default loop and n value is " + n);
 			return n;
 		}
 
-		System.out.println("n value is " + n);
-		System.out.println(getFibonacci(n - 1) + getFibonacci(n - 2));
+		//System.out.println("n value is " + n);
+		//System.out.println(getFibonacci(n - 1) + getFibonacci(n - 2));
 		return getFibonacci(n - 1) + getFibonacci(n - 2);
 
 	}
